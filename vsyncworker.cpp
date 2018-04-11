@@ -36,6 +36,7 @@ VSyncWorker::VSyncWorker()
       drm_(NULL),
       procs_(NULL),
       display_(-1),
+      enabled_(false),
       last_timestamp_(-1) {
 }
 
